@@ -1,0 +1,61 @@
+.header--wrapper {
+    padding: 48px;
+}
+
+.header--avatar_image {
+    width: 150px;
+    border-radius: 16px;
+}
+
+.header--profile-name {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: $dark-gray;
+    margin-top: 8px;
+}
+
+.header--profile-location {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: $gray;
+    margin-top: 8px;
+}
+
+.header--stats {
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.card--wrapper {
+    padding: 20px;
+    background-color: $medium-gray;
+    border-radius: 12px;
+    min-width: 100px;
+    
+}
+
+.card--number {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $dark-gray;
+}
+
+.card--description {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $gray;
+}
