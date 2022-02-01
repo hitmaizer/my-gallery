@@ -1,10 +1,16 @@
 .header--wrapper {
     padding: 48px;
+    @include respond-below(md) {
+      padding: 24px;
+    }
 }
 
 .header--avatar_image {
     width: 150px;
     border-radius: 16px;
+    @include respond-below(md) {
+      width: 75px;
+    }
 }
 
 .header--profile-name {
@@ -15,6 +21,10 @@
     line-height: 29px;
     color: $dark-gray;
     margin-top: 8px;
+    @include respond-below(md) {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
 .header--profile-location {
@@ -25,11 +35,16 @@
     line-height: 17px;
     color: $gray;
     margin-top: 8px;
+    @include respond-below(md) {
+        font-size: 10px;
+        line-height: 12px;
+    }
 }
 
 .header--stats {
     gap: 24px;
     margin-top: 24px;
+    
 }
 
 .card--wrapper {
@@ -48,6 +63,10 @@
     line-height: 22px;
     text-align: center;
     color: $dark-gray;
+    @include respond-below(md) {
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 .card--description {
@@ -58,4 +77,8 @@
     line-height: 17px;
     text-align: center;
     color: $gray;
+    @include respond-below(md) {
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
