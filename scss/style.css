@@ -41,9 +41,21 @@
   padding: 48px;
 }
 
+@media (max-width: 991px) {
+  .header--wrapper {
+    padding: 24px;
+  }
+}
+
 .header--avatar_image {
   width: 150px;
   border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .header--avatar_image {
+    width: 75px;
+  }
 }
 
 .header--profile-name {
@@ -56,6 +68,13 @@
   margin-top: 8px;
 }
 
+@media (max-width: 991px) {
+  .header--profile-name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
 .header--profile-location {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -64,6 +83,13 @@
   line-height: 17px;
   color: #A9A9A9;
   margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .header--profile-location {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 .header--stats {
@@ -88,6 +114,13 @@
   color: #4E5150;
 }
 
+@media (max-width: 991px) {
+  .card--number {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
 .card--description {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -96,6 +129,13 @@
   line-height: 17px;
   text-align: center;
   color: #A9A9A9;
+}
+
+@media (max-width: 991px) {
+  .card--description {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 .hero--section {
